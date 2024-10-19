@@ -35,7 +35,7 @@ export default function Home() {
               <div className="p-5">
                 <ul className="flex flex-wrap item-center text-4xl justify-center gap-12 text-gray-500 dark:text-gray-400" >
                   <li><a href="https://www.linkedin.com/in/darren-liew-jia-quan/"><FaLinkedin /></a> </li>
-                  <li><a href="https://github.com/quanliew1228"><FaGithub /></a></li>
+                  <li><a href="https://github.com/quanliew"><FaGithub /></a></li>
                   <li><a href="mailto:darrenliew96@gmail.com"><MdOutlineAlternateEmail /></a></li>
                 </ul>
               </div> 
