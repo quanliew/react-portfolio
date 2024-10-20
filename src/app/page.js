@@ -25,7 +25,7 @@ export default function Home() {
               <p className="  text-2xl font-pacifico dark:text-gray-400">developedbydarren</p>
               <ul className="flex item-center">
                 <li className="p-2 cursor-pointer text-2xl dark:text-slate-400" onClick={() =>setDarkMode(!darkMode)}><BsFillMoonStarsFill /></li>
-                <Button href="/public/Resume.pdf" variant="outline" className="bg-gradient-to-b dark:from-slate-700 dark:to-slate-600 dark:text-slate-400">Resume</Button>
+                <Button href="/Resume.pdf" variant="outline" className="bg-gradient-to-b dark:from-slate-700 dark:to-slate-600 dark:text-slate-400">Resume</Button>
               </ul>
             </nav>
             <div className=" container text-center p-10 my-10 dark:text-slate-300">
