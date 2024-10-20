@@ -11,6 +11,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTailwindcss } from "react-icons/si";
 import { useState } from "react";
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -25,7 +26,9 @@ export default function Home() {
               <p className="  text-2xl font-pacifico dark:text-gray-400">developedbydarren</p>
               <ul className="flex item-center">
                 <li className="p-2 cursor-pointer text-2xl dark:text-slate-400" onClick={() =>setDarkMode(!darkMode)}><BsFillMoonStarsFill /></li>
-                <Button href="/Resume.pdf" variant="outline" className="bg-gradient-to-b dark:from-slate-700 dark:to-slate-600 dark:text-slate-400">Resume</Button>
+                <Link href="/Resume.pdf">
+                  <Button variant="outline" className="bg-gradient-to-b dark:from-slate-700 dark:to-slate-600 dark:text-slate-400">Resume</Button>
+                </Link>
               </ul>
             </nav>
             <div className=" container text-center p-10 my-10 dark:text-slate-300">
