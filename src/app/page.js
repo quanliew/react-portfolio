@@ -25,7 +25,7 @@ export default function Home() {
               <p className="  text-2xl font-pacifico dark:text-gray-400">developedbydarren</p>
               <ul className="flex item-center">
                 <li className="p-2 cursor-pointer text-2xl dark:text-slate-400" onClick={() =>setDarkMode(!darkMode)}><BsFillMoonStarsFill /></li>
-                <Button href="#" variant="outline" className="bg-gradient-to-b dark:from-slate-700 dark:to-slate-600 dark:text-slate-400">Resume</Button>
+                <Button href="/public/Resume.pdf" variant="outline" className="bg-gradient-to-b dark:from-slate-700 dark:to-slate-600 dark:text-slate-400">Resume</Button>
               </ul>
             </nav>
             <div className=" container text-center p-10 my-10 dark:text-slate-300">
@@ -35,7 +35,7 @@ export default function Home() {
               <div className="p-5">
                 <ul className="flex flex-wrap item-center text-4xl justify-center gap-12 text-gray-500 dark:text-gray-400" >
                   <li><a href="https://www.linkedin.com/in/darren-liew-jia-quan/"><FaLinkedin /></a> </li>
-                  <li><a href="https://github.com/quanliew"><FaGithub /></a></li>
+                  <li><a href="https://github.com/quanliew28"><FaGithub /></a></li>
                   <li><a href="mailto:darrenliew96@gmail.com"><MdOutlineAlternateEmail /></a></li>
                 </ul>
               </div> 
